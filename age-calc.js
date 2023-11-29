@@ -5,9 +5,7 @@ const license = 18;
 const jrop = 16;
 const rental = 25;
 
-let myAge = 15;
-
-function checkAge(e) {
+function checkGrade(e) {
 e.preventDefault();
 
     let myAge = document.querySelector('input').value;
