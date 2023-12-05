@@ -18,16 +18,16 @@ e.preventDefault();
     if (myGrade >= A){
     message += `<li>You have an A!</li>`;
     }
-
-    if (myGrade >= B){
+    //   g>=80 && g<=89 
+    if (myGrade >= 80 && myGrade <= 89){
         message += `<li>You have a B!</li>`;
     }
 
-    if (myGrade >= C) {
+    if (myGrade >= 70 && myGrade <= 79) {
         message += `<li>You have a C..</li>`;
     }
 
-    if (myGrade >= D) {
+    if (myGrade >= 60 && myGrade <= 69) {
         message +=  `<li>You have a D...</li>`;
     }
 
